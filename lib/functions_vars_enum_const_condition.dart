@@ -39,7 +39,7 @@ const kTitlepink = TextStyle(fontSize: 35.0, color: Colors.pink);
 const kLabeltext = TextStyle(fontSize: 16.0, color: Color(0xFF8D8E98));
 const kCalulate = TextStyle(
     fontSize: 43.0, color: Colors.black87, fontWeight: FontWeight.w700);
-int height = 180;
+int height = 160;
 int weight = 50;
 int age = 20;
 const minheight = 120;

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Acer\\StudioProjects\\bmi_calculator\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Acer\\StudioProjects\\Bmi_finder\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Acer\\StudioProjects\\bmi_calculator\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Acer\\StudioProjects\\Bmi_finder\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'classes.dart';
 import 'functions_vars_enum_const_condition.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'resultcalculator.dart';
 
 void main() {
   runApp(BmiApp());
@@ -274,10 +275,15 @@ class _BmiHomeinputState extends State<BmiHomeinput> {
         Expanded(
           child: GestureDetector(
             onTap: () {
+              CalculatorBrain calc =
+                  CalculatorBrain(height: height, weight: weight);
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => Resultpage(),
+                  builder: (context) => Resultpage(
+                    bmiresult: calc.calculatebmi(),
+                    resulttext: calc.checkresult(),
+                  ),
                 ),
               );
             },

@@ -1,4 +1,4 @@
-#Wed Jul 21 21:36:47 IST 2021
-base.0=C\:\\Users\\Acer\\StudioProjects\\bmi_calculator\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Wed Jul 21 22:57:04 IST 2021
+base.0=C\:\\Users\\Acer\\StudioProjects\\Bmi_finder\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

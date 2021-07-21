@@ -2,6 +2,14 @@ import 'package:flutter/material.dart';
 import 'functions_vars_enum_const_condition.dart';
 
 class Resultpage extends StatelessWidget {
+  Resultpage({
+    required this.bmiresult,
+    required this.resulttext,
+  });
+
+  final String bmiresult;
+  final String resulttext;
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -43,7 +51,7 @@ class Resultpage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'data',
+                            resulttext,
                             style: kTitlepink,
                           ),
                           SizedBox(
@@ -52,7 +60,7 @@ class Resultpage extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.all(60.0),
                             child: Text(
-                              'weight',
+                              bmiresult,
                               style: kNumberTextstyle,
                             ),
                           ),
